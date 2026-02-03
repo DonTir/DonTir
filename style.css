@@ -48,3 +48,13 @@ footer {
     text-align: center;
     padding: 10px;
 }
+.galeri-foto {
+  display: flex;
+  gap: 200px;
+  flex-wrap: wrap;
+}
+
+.galeri-foto img {
+  width: 15%;
+  height:auto;
+}
