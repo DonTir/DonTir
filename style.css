@@ -79,8 +79,8 @@ footer {
 }
 
 .card img {
-  width: 100%;
-  height: auto;
+  width: 960px;
+  height: 174px;
   border-radius: 10px;
 }
 
@@ -98,4 +98,5 @@ footer {
     align-items: center;
   }
 }
+
 
