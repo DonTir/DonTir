@@ -14,20 +14,27 @@
 </header>
 
 <nav>
-    <ul class="nav-menu">
+    <ul>
         <li><a href="index.html">Beranda</a></li>
         <li><a href="profil.html">Profil</a></li>
         <li><a href="galeri.html">Galeri</a></li>
         <li><a href="kontak.html">Kontak</a></li>
     </ul>
 </nav>
+<section id="kontak">
+    <h2>Kritik & Saran</h2>
+    <form action="simpan.php" method="POST">
+        <label>Nama:</label><br>
+        <input type="text" name="nama" required><br>
 
-<section id="beranda">
-    <h2>Beranda</h2>
-    <p>
-        Selamat datang di website resmi SMKN 3 Buduran.
-        Website ini digunakan sebagai media informasi sekolah.
-    </p>
+        <label>Kelas:</label><br>
+        <input type="text" name="kelas" required><br>
+
+        <label>Kritik & Saran:</label><br>
+        <textarea name="pesan" required></textarea><br>
+
+        <button type="submit" name="submit">Kirim Pesan</button>
+    </form>
 </section>
 </body>
 </html>

@@ -59,3 +59,8 @@ footer {
   height:auto;
 }
 
+.nav-menu {
+  display: flex;
+  gap: 30px;
+  margin: 0 auto;   /* KUNCI: bikin ke tengah */
+  list-style: none;
