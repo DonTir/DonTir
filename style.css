@@ -63,4 +63,37 @@ footer {
   display: flex;
   gap: 30px;
   margin: 0 auto;   /* KUNCI: bikin ke tengah */
+
   list-style: none;
+.container {
+  display: flex;
+  justify-content: center; /* posisi tengah */
+  gap: 40px; /* jarak antar calon */
+  margin-top: 30px;
+}
+
+.card {
+  text-align: center;
+  width: 250px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
